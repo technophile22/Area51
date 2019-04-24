@@ -9,6 +9,6 @@ How to run on a local server-
 -------------------------------------------------------------------------
 <br>
 1. After downloading the repository, open command prompt and navigate to the Area51 folder using cd command.<br>
-2. Now, type <strong>py -m http.server</strong> to use python as a server.
-3. open any browser and type <strong>localhost:8000</strong> in the address bar.
+2. Now, type <strong>py -m http.server</strong> to use python as a server.<br>
+3. open any browser and type <strong>localhost:8000</strong> in the address bar.<br>
 4. web app is live on your local server.
