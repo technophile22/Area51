@@ -1,0 +1,256 @@
+body{
+	background-color: #333333;
+    background-image: url(../images/104426.jpg);
+    background-size: cover;
+    cursor: url('../images/rocket.cur'), default;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  opacity: 0.2;
+  z-index: 0;
+}
+.gif{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    z-index: 1;
+    top:0;
+    left: 0;
+    opacity: 0.6;
+}
+.logo{
+    position: absolute;
+    z-index: 2;
+    top:16px;
+    left:0;
+    height: 180px;
+    width: 380px;
+}
+.text1{
+    margin-top: 350px;
+    margin-left: 15px;
+    text-align: center;
+}
+.text2{
+    font-family: 'Fresca', sans-serif;
+    color: #EBECEC;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #FBE9ED;
+}
+.text3{
+    font-family: 'Amatic SC', cursive;;
+    color: #333232;
+    font-size: 35px;
+
+    text-shadow: 3px 3px 3px #aaa;
+    text-align: center;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: skyblue;
+    border-left: 10px solid skyblue;
+    border-image-width: auto;
+    background-color: aliceblue;
+
+}
+.text4{
+    font-family: cursive;
+    color: #4CAF50;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.axis path,
+.axis line {
+  fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+.axis text {
+	font-family: sans-serif;
+	font-size: 11px;
+}
+#my_dataviz{
+	border-radius: 10px;
+    margin-top: 350px;
+	width: 1100px;
+	height: 800px;
+	position: absolute;
+	left : 10%;
+	top:50%;
+	z-index: 2;
+	background-color:gray;
+    opacity: 0.9;
+	
+}
+.text6{
+    margin-top: 900px;
+    text-align: center;
+}
+.text5{
+    font-family: monospace;
+    color: azure;
+    text-align: center;
+    font-size: 25px;
+}
+
+#pieChart{
+	z-index: 2;
+	margin-top: 50px;
+	margin-left: 350px;
+}
+.text7{
+    margin-top: 50px;
+    text-align: center;
+}
+#chartContainer{
+    border-radius: 15px;
+    margin-top: 50px;
+    width: 500px;
+    height: 800px;
+    position: absolute;
+    align-content: center;
+    z-index: 1;
+    background-color: #191919;
+    opacity: 0.6;
+    opacity: 0.9;
+}
+.text8{
+    margin-top: 420px;
+    text-align: center;
+}
+.text9{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.text10{
+    font-family: serif;
+    color:#5F5F5F;
+    text-align: center;
+    font-size: 25px;
+    border-style:groove;
+    border-radius: 10px;
+    border-color: skyblue;
+    border-left: 20px solid skyblue;
+    border-image-width: auto;
+    background-color: aliceblue;
+    
+}
+.text11{
+    font-family: monospace;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #c8c5be;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+caption{
+	font-family: 'Heebo', sans-serif;
+	font-size: 2em;
+	padding: 20px;
+	color: grey;
+}
+table,tr{
+	padding: 20px;
+}
+.k1text{
+	text-align: center;
+	color: grey;
+	top:20px;
+	
+}
+#myBtn{
+	 margin-top: 300px;
+	position: absolute;
+	font-size: 30px;
+	border-radius: 25px;
+	color: crimson;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	left: 65%;
+}
+.k1img{
+	width: 500px;
+	height: 350px;
+	margin-left: 30%;
+}
+.k1{
+    z-index: 2;
+    margin-top: 100px;
+}
+.text12{
+    margin-top: 50px;
+    text-align: center;
+}
+.text13{
+    font-family: monospace;
+    color: azure;
+    text-align: center;
+    font-size: 55px;
+    
+}
+.gif2{
+    margin-top: 100px;
+}
+.gif3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top:0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.love{
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    font-family:cursive;   
+}

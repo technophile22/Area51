@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Area51</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fresca" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fresca|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fresca|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.7.2/d3.min.js"></script>
+    <script src="javascript/d3pie.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+  <source src="videos/Space%20-%202381.mp4" type="video/mp4">
+</video>
+
+     
+      <img class="gif" src="images/3322054ce8-Hackbenchers2_1.gif" alt="gif">
+       <img class="logo" src="images/onlinelogomaker-041719-1534-9774.png" alt="Exo-rious">
+       <div class="text1">
+        
+         
+          
+           <p class="text2">All of the planets in our solar system orbit around the Sun. <br>
+               Planets that orbit around other stars are called <strong>Exoplanets</strong>.<br>
+               Exoplanets are very hard to see directly with telescopes.<br>
+           They are hidden by the bright glare of the stars they orbit.</p> 
+       </div>
+              <p class="text3"> This platform will help you know about them interactively. </p>
+           
+    <p class="text4"> Below is a graph plotted between the planetry mass(jpt) and Radius of exoplanet.</p>
+        <div id="my_dataviz"></div>
+    	<script class="graph1" src="javascript/graph1.js" type="text/javascript"></script>
+      
+    <div class="text6"> 
+    <p class="text5"> <strong>Note:</strong>(Above graph is interactive and hoverable, Move your mouse and see.)<br> You can get all the information related to an Exoplanet by moving the cursor on any bubble over the graph. It will display the planet name, mass, radius and the surface temperature on the tooltip of the cursor.</p> 
+    </div>
+     <p><br></p>
+      <p class="text4">Below is a pie chart plotted to show the different techniques used in discoveries of exoplanets.</p>
+       <div id="pieChart"></div>
+        <script src="javascript/pie_graph.js" type="text/javascript"></script>
+        
+        <div class="text7">
+           <p class="text5"> <strong>Note:</strong>( Above pie chart is interactive and hoverable,CLICKING ON THE PIE CHART DIVISIONS WILL MAKE THE PIE CHART HOVER.)<br> This pie chart displays the various techniques used to discover the Exoplanets. </p>
+           
+            
+        </div>
+        <p><br></p>
+        <p class="text4"> Below is a line graph plotted between the number of Exoplanets and the year of discovery.</p>
+        <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+        <script src="javascript/line_graph.js" type="text/javascript"></script>
+    <div class="text8">
+        <p class="text5"><strong>Note:</strong>(Above line graph is interactive, move your mouse in and see details on the tooltip.)</p>
+    </div>
+       
+       <div class="text9">
+          
+           <p class="text11"><strong> Biggest Exoplanet: HD 100546 </strong><br></p>
+           <p class="text10">HD 100546 b is the largest planet ever recorded, it's radius is about 6 times jupiter's radius(about 419466km)
+Analyzing about 3585 exoplanets, it is found that the planet HD 100546 b is the largest of all having radius 6 times the radius of Jupiter(about 419466km). As discussed above, this planet's size puts it near the border between a huge planet and a brown dwarf. While being a huge planet it is also has >15Mj mass. The whole HD 100546 b is still very young protoplanet. The host star HD 100546 still has its protoplanetary disc bright and full of fumes. So, it is a new entry to the confirmed exoplanet family in 2013.
+</p>
+       </div>
+       
+       <div class="text9">
+           <p class="text11"><strong> Heaviest planet : 2M 2206-20 b </strong><br></p>
+               
+           <p class="text10"> 2M 2206-20 b has mass about 30 times that of Jupiter, which is about5.6961e28kg
+</p>
+       </div>
+       
+       <div class="text9">
+           <p class="text11"><strong>Smallest planet : Kepler-37 b</strong><br></p>
+           <p class="text10"> Kepler-37 b is the smallest planet ever recorded, with mass 0.00875 times jupiter's mass and radius 0.027 times jupiter radius. Kepler mission discovered a moon sized planet. Kepler-37b orbiting Kepler-37 system in Constellation Lyra. As of February 2013 it is the smallest planet discovered around a main-sequence star, with a radius slightly greater than that of our Moon. But Moon has way higher density than Kepler-37 b. The orbital period of this planet is very short as expected. It completes a total revolution in just 13 days. 7 times lesser than Mercury with 88 days orbital period.
+</p>
+       </div>
+       
+     <div class="text12"> 
+       <p class="text13">
+           <strong>THE MOST HABITABLE PLANET</strong>
+       </p></div>   
+        
+        
+        
+        
+<div class="k1">
+<h1 class="k1text">Kepler 186f</h1>
+<img class="k1img" width="200px" height="200px" src="images/k1.jpg" alt="kepler 186f">
+<!-- Trigger/Open The Modal -->
+<button id="myBtn"><i class="fas fa-info-circle"></i></button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+     <table style="width:100%">
+  <caption>Discovery</caption>
+  <tr>
+    <td>Discovered by</td>
+    <td>Elisa Quintana</td>
+  </tr>
+  <tr>
+    <td>Discovery site</td>
+    <td>Kepler Space Observatory</td>
+  </tr>
+  <tr>
+    <td>Discovery date</td>
+    <td>17 April 2014</td>
+  </tr>
+  <tr>
+    <td>Detection method</td>
+    <td>Transit</td>
+  </tr>
+</table> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<table style="width:100%">
+  <caption >Orbital characteristics</caption>
+  <tr>
+    <td>Semi-major axis</td>
+    <td>0.432 (± 0.01) AU[3]</td>
+  </tr>
+  <tr>
+    <td>Eccentricity</td>
+    <td>0.04</td>
+  </tr>
+  <tr>
+    <td>Orbital period</td>
+    <td>129.9444 (± 0.0012) d
+	0.355772 y
+</td>
+  </tr>
+  <tr>
+    <td>Inclination</td>
+    <td>Transit</td>
+  </tr>
+</table> 
+ </div>
+
+</div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+       <div class="gif2">
+           <img class="gif3" src="images/3322054ce8-Hackbenchers2_1.gif" alt="gif">
+       </div>
+    
+<div class = "text14">
+
+        <p class="love">Made with &#10084; and &#10094; &#10095; by <a href="https://github.com/technophile22"> Raghav, Raghvendra, Neeraj and Manas</a>.</p>
+    
+</div>        
+            
+</body>
+</html>
